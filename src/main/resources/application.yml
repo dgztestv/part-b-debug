@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: meter-status
+
+meters:
+  heartbeat-interval: 30s
+  offline-after: 90s
+
+logging:
+  level:
+    com.meterline: INFO
